@@ -53,8 +53,8 @@ Video Chat uygulamamızı ("Uygulama") kullandığınız için teşekkür ederiz
 
 ## 7. İletişim
 Gizlilik politikamız hakkında sorularınız için:
-- E-posta: [E-POSTA ADRESİNİZ]
-- Web: [WEB SİTENİZ]
+- E-posta: kadir49884@gmail.com
+- Web: https://kadir49884.github.io/video_chat_app
 
 ## 8. Değişiklikler
 Bu gizlilik politikası gerektiğinde güncellenebilir. Önemli değişiklikler olduğunda kullanıcılarımızı bilgilendireceğiz. 
