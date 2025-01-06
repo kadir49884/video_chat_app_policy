@@ -3,33 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video Chat App - Gizlilik Politikası</title>
+    <title>Video Chat App - Politikalar</title>
     <style>
+        :root {
+            --primary-color: #6C63FF;
+            --text-color: #2D3748;
+            --bg-color: #F7FAFC;
+            --card-bg: #FFFFFF;
+        }
+        
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
             line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #1E4D92 0%, #1CAF82 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
             max-width: 800px;
-            margin: 0 auto;
+            margin: 40px auto;
+            padding: 20px;
+            width: 90%;
+        }
+
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
             padding: 20px;
         }
-        h1, h2, h3 {
-            color: #333;
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
         }
-        a {
-            color: #0366d6;
+
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+            margin: 0;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 32px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 24px;
+            transition: transform 0.2s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-2px);
+        }
+
+        .link-item {
+            display: flex;
+            align-items: center;
+            padding: 16px;
+            border-radius: 12px;
+            color: var(--text-color);
             text-decoration: none;
+            transition: background-color 0.2s ease;
+            margin-bottom: 12px;
+            background-color: #F8FAFC;
         }
-        a:hover {
-            text-decoration: underline;
+
+        .link-item:hover {
+            background-color: #EDF2F7;
+        }
+
+        .link-item i {
+            margin-right: 12px;
+            color: var(--primary-color);
+            font-size: 24px;
+        }
+
+        .link-item span {
+            font-size: 1.1em;
+            font-weight: 500;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 16px;
+                margin: 20px auto;
+            }
+
+            .header h1 {
+                font-size: 2em;
+            }
+
+            .card {
+                padding: 24px;
+            }
         }
     </style>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Video Chat App</h1>
-    <p>Hoş geldiniz! Aşağıdaki bağlantılardan ilgili politika dokümanlarına ulaşabilirsiniz:</p>
-    <ul>
-        <li><a href="privacy_policy.md">Gizlilik Politikası</a></li>
-        <li><a href="terms_of_service.md">Kullanım Koşulları</a></li>
-    </ul>
+    <div class="container">
+        <div class="header">
+            <h1>Video Chat App</h1>
+            <p>Gizlilik ve Kullanım Politikaları</p>
+        </div>
+
+        <div class="card">
+            <a href="privacy_policy.md" class="link-item">
+                <i class="fas fa-shield-alt"></i>
+                <span>Gizlilik Politikası</span>
+            </a>
+            <a href="terms_of_service.md" class="link-item">
+                <i class="fas fa-file-contract"></i>
+                <span>Kullanım Koşulları</span>
+            </a>
+        </div>
+    </div>
 </body>
 </html> 
