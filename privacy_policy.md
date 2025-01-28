@@ -14,13 +14,21 @@ Video Chat uygulamamızı ("Uygulama") kullandığınız için teşekkür ederiz
 - Bu veriler sadece görüşme sırasında kullanılır ve kaydedilmez
 - Görüşme bittiğinde veriler anında silinir
 
-### 2.2 Kullanıcı Bilgileri
+### 2.2 Kullanıcı Görüntüleri
+
+- Eşleşme sürecinde kullanıcı görüntüleri geçici olarak Firebase'e yüklenir
+- Bu görüntüler sadece eşleşme kalitesini artırmak için kullanılır
+- Görüntüler 24 saat içinde otomatik olarak silinir
+- Görüntüler şifrelenmiş olarak saklanır ve üçüncü taraflarla paylaşılmaz
+- Kullanıcılar istedikleri zaman görüntülerinin silinmesini talep edebilir
+
+### 2.3 Kullanıcı Bilgileri
 
 - E-posta adresi (hesap oluşturma için)
 - Profil bilgileri (isteğe bağlı)
 - Kullanıcı tercihleri
 
-### 2.3 Teknik Veriler
+### 2.4 Teknik Veriler
 
 - Cihaz bilgileri
 - IP adresi
@@ -35,6 +43,7 @@ Video Chat uygulamamızı ("Uygulama") kullandığınız için teşekkür ederiz
 - Gerçek zamanlı veritabanı
 - Analytics
 - Crashlytics
+- Cloud Storage (geçici görüntü depolama)
 
 ### 3.2 Agora Servisi
 
@@ -47,6 +56,8 @@ Video Chat uygulamamızı ("Uygulama") kullandığınız için teşekkür ederiz
 - Tüm veriler SSL/TLS ile şifrelenir
 - Firebase güvenlik kuralları uygulanır
 - Düzenli güvenlik güncellemeleri yapılır
+- Kullanıcı görüntüleri özel şifreleme ile korunur
+- Sadece yetkili personel veri erişimine sahiptir
 
 ## 5. Kullanıcı Hakları
 
@@ -54,6 +65,7 @@ Video Chat uygulamamızı ("Uygulama") kullandığınız için teşekkür ederiz
 - Veri düzeltme hakkı
 - Veri silme hakkı
 - Hesap silme hakkı
+- Görüntü verilerini silme hakkı
 
 ## 6. Çocukların Gizliliği
 

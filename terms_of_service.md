@@ -16,12 +16,21 @@ Bu kullanım koşulları, Video Chat App ("Uygulama") kullanımınızı düzenle
 - Şüpheli aktiviteleri bildirmelisiniz
 - Hesap paylaşımı yasaktır
 
-### 2.3 Yasaklı Davranışlar
+### 2.3 Görüntü Kullanımı
+- Eşleşme sürecinde kamera görüntünüz geçici olarak kaydedilir
+- Bu görüntüler sadece eşleşme kalitesini artırmak için kullanılır
+- Görüntüler 24 saat içinde otomatik olarak silinir
+- Görüntülerin kötüye kullanımı kesinlikle yasaktır
+- Uygunsuz görüntü paylaşımı hesabın kapatılmasına neden olur
+- Görüntülerinizin silinmesini talep etme hakkına sahipsiniz
+
+### 2.4 Yasaklı Davranışlar
 - Uygunsuz içerik paylaşımı
 - Taciz ve zorbalık
 - Spam ve yanıltıcı davranışlar
 - Yasadışı aktiviteler
 - Kötüye kullanım
+- Görüntülerin izinsiz kaydedilmesi veya paylaşılması
 
 ## 3. KULLANICI HAKLARI
 
@@ -29,16 +38,19 @@ Bu kullanım koşulları, Video Chat App ("Uygulama") kullanımınızı düzenle
 - Kişisel verilerin korunması
 - Veri paylaşım kontrolü
 - Veri silme hakkı
+- Görüntü verilerini kontrol etme hakkı
 
 ### 3.2 Güvenlik
 - Güvenli iletişim
 - İçerik kontrolü
 - Raporlama mekanizması
+- Görüntü şifreleme
 
 ### 3.3 İçerik
 - İçerik sahipliği
 - Paylaşım hakları
 - Telif hakları
+- Görüntü kullanım hakları
 
 ## 4. KISITLAMALAR
 
@@ -46,11 +58,13 @@ Bu kullanım koşulları, Video Chat App ("Uygulama") kullanımınızı düzenle
 - Bant genişliği limitleri
 - Depolama sınırları
 - Kullanım limitleri
+- Görüntü kalitesi ve boyut sınırlamaları
 
 ### 4.2 İçerik Kısıtlamaları
 - Uygunsuz içerik
 - Ticari kullanım
 - Bot ve otomasyon
+- Görüntü manipülasyonu
 
 ## 5. CEZA POLİTİKASI
 
@@ -58,11 +72,13 @@ Bu kullanım koşulları, Video Chat App ("Uygulama") kullanımınızı düzenle
 - Uyarı sistemi
 - Geçici engelleme
 - Kalıcı hesap kapatma
+- Görüntü ihlalleri için özel yaptırımlar
 
 ### 5.2 İtiraz Süreci
 - İtiraz hakkı
 - İnceleme süreci
 - Karar bildirimi
+- Görüntü silme talepleri
 
 ## 6. DEĞİŞİKLİKLER
 
@@ -89,7 +105,15 @@ These terms of service constitute a legal agreement governing your use of Video 
 - Must report suspicious activities
 - Account sharing is prohibited
 
-### 2.3 Prohibited Behavior
+### 2.3 Image Usage
+- Your camera image may be temporarily recorded during matching
+- These images are only used to improve matching quality
+- Images will be automatically deleted after 24 hours
+- Images must not be used for inappropriate purposes
+- Sharing inappropriate images may result in account closure
+- You have the right to request deletion of your images
+
+### 2.4 Prohibited Behavior
 - Inappropriate content sharing
 - Harassment and bullying
 - Spam and misleading behavior
@@ -102,16 +126,19 @@ These terms of service constitute a legal agreement governing your use of Video 
 - Personal data protection
 - Data sharing control
 - Right to data deletion
+- Right to control image data
 
 ### 3.2 Security
 - Secure communication
 - Content control
 - Reporting mechanism
+- Image encryption
 
 ### 3.3 Content
 - Content ownership
 - Sharing rights
 - Copyright
+- Image usage rights
 
 ## 4. RESTRICTIONS
 
@@ -119,11 +146,13 @@ These terms of service constitute a legal agreement governing your use of Video 
 - Bandwidth limits
 - Storage limits
 - Usage limits
+- Image quality and size restrictions
 
 ### 4.2 Content Restrictions
 - Inappropriate content
 - Commercial use
 - Bots and automation
+- Image manipulation
 
 ## 5. PENALTY POLICY
 
@@ -131,11 +160,13 @@ These terms of service constitute a legal agreement governing your use of Video 
 - Warning system
 - Temporary suspension
 - Permanent account closure
+- Special penalties for image violations
 
 ### 5.2 Appeal Process
 - Right to appeal
 - Review process
 - Decision notification
+- Image deletion requests
 
 ## 6. CHANGES
 
